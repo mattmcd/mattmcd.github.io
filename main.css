@@ -1,0 +1,48 @@
+body {  background-color: #000033; margin: 0cm; margin-top: 0px; 
+        margin-right: 0px; margin-bottom: 0px; margin-left: 0px; 
+	border-top-width: 0px; border-right-width: 0px; 
+	border-bottom-width: 0px; border-left-width: 0px; 
+	color: #FFFFFF; background-image: url(pics/tile100x100v03glide.jpg)}
+code {  font-size: 14pt; background-color: #FFFFCC; color:
+  #000000; margin: 5px}
+pre {  font-size: 14pt; background-color: #FFFFCC; width:100%; color:
+  #000000; margin: 5px}
+a:active {  color: #FF6600}
+a:visited {  color: #00DDAA}
+a:link {  color: #00DDAA}
+a {font-family: Helvetica, Arial, sans-serif; color: #00DDAA; text-decoration: none; padding: 1px}
+a:hover {  color: #FF6600; text-decoration: none; background-color: #001155 }
+h3 {  font-family: Helvetica, Arial, sans-serif; font-size: 14pt; font-weight: bold; color: #FF6600}
+p {  font-family: Helvetica, Arial, sans-serif; color: #FFFFFF; font-size: 14pt}
+p.big{font-size: 16pt}
+ul { font-family: Helvetica, Arial, sans-serif; color: #FFFFFF; font-size: 12pt}
+ol { font-family: Helvetica, Arial, sans-serif; color: #FFFFFF; font-size: 12pt}
+h2 {  font-family: Helvetica, Arial, sans-serif; font-size: 16pt; font-weight: bold; color: #FF9900}
+h1 {  font-family: Western, fantasy; font-size: 28pt; 
+      color: #AAAAFF; text-align: center}
+h1.big {  font-family: Times, serif; font-size: 28pt; 
+      color: #9999FF; text-align: center}
+h4 {  font-family: Helvetica, Arial, sans-serif; font-size: 14pt; font-style: italic; font-weight: bold; color: #33FF33}
+.picframe {text-align: center; margin: 15px; float: left}
+#content {position: relative; margin-top: 10px;}
+#mainnav{ font-family: Helvetica, Arial, sans-serif; display: table; 
+  float: left; padding: 10px;} 
+#navbar{ font-family: Helvetica, Arial, sans-serif;  display: table; 
+  position: relative; padding: 10px; } 
+#entry { float:left; margin-right: 2%;  margin-top: 10px; 
+  width: 88%}
+#catnav{ font-family: Helvetica, Arial, sans-serif;  display: table; 
+   padding: 10px; width: 10%} 
+#leftcol{position: relative; float: left; width: 15%}
+#midcol{position: relative; margin-left:17%; margin-right:15%; }
+.bignavcell{font-size: 20pt; text-align: center; color: #FFFFFF;
+  background-color: #000000; padding: 10px; margin: 5px; clear: left} 
+.smallnavcell{font-size: 16pt; text-align: center; color: #FFFFFF;
+  background-color: #000000; padding: 5px; 
+  margin-left: 5px; position: relative; float: left} 
+.catnavcell{font-size: 16pt; text-align: center; color: #BBBBFF;
+  padding: 5px; margin-left: 5px; position: relative; clear: left} 
+#mainnav a.bignavlink{color: #EEEEEE}
+#mainnav a.bignavlink:hover, a.big:active{color: #FF0000; background-color: #000000 }
+#navbar a.smallnavlink{color: #EEEEEE}
+#navbar a.smallnavlink:hover, a.big:active{color: #FF0000; background-color: #000000 }
