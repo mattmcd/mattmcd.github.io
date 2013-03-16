@@ -9,4 +9,4 @@ the tutorial [Publishing a Blog with GitHub Pages and
 Jekyll][TylerHunt_2009].
 
 
-[TylerHunt_2009]: http://blog.envylabs.com/2009/08/publishing-a-blog-with-github-pages-and-jekyll/
+[TylerHunt_2009]: http://blog.envylabs.com/post/29130148441/publishing-a-blog-with-github-pages-and-jekyll 
