@@ -20,7 +20,7 @@ Now consider the equivalent line of the [C++ version](https://gist.github.com/ma
 
     for( const auto arg : args ) std::cout << arg << std::endl;
 
-We've ignored here some code that translates the input array of strings into a vector<string>,
+We've ignored here some code that translates the input array of strings into a vector&lt;string&gt;,
 as well as the include statements.  The main program logic is however virtually identical.
 
 This post was partly inspired by [C++11 and Boost - succinct like Python](bit.ly/Tuhdiq).  
