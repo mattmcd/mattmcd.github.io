@@ -10,7 +10,7 @@ that prints out its list of input arguments.
 
 First consider the [Scala version](https://gist.github.com/mattmcd/5227882):
 
-    args.foreach( arg => println( arg ))
+    for( arg <- args ) println(arg)
 
 When a Scala script is executed the command line arguments are passed in 
 as a java.lang.String array args.  We can then use the foreach method
