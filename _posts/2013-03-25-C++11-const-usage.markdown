@@ -2,11 +2,12 @@
 layout: default
 title: Constants in C++ and Scala
 headline: Comparing C++11 const syntax to Scala
-abstract: In Scala variables can be mutable (_var_) or immutable (_val_).  
-In C++ variables can be modified by the _const_ keyword to achieve 
-the same results.  Here we consider the case of a list of strings.
-An extended C++ example is available at
-[this gist](https://gist.github.com/mattmcd/5240193).
+abstract: | 
+    In Scala variables can be mutable (_var_) or immutable (_val_).  
+    In C++ variables can be modified by the _const_ keyword to achieve 
+    the same results.  Here we consider the case of a list of strings.
+    An extended C++ example is available at
+    [this gist](https://gist.github.com/mattmcd/5240193).
 ---
 
 Note that in Scala all objects are created on the heap.  In C++
