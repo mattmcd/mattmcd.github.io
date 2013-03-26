@@ -2,11 +2,10 @@
 layout: default
 title: C++11 compared to Scala 
 headline: A small example comparing C++11 syntax to Scala
----
-
-Both Scala and C++11 have type inference capabilities that simplify code 
+abstract: Both Scala and C++11 have type inference capabilities that simplify code 
 while retaining type safety.  This post compares the syntax for a program
 that prints out its list of input arguments.
+---
 
 First consider the [Scala version](https://gist.github.com/mattmcd/5227882):
 
