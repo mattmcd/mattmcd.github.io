@@ -103,7 +103,7 @@ solve the problem is trivial:
       ...
     }
     
-Full version of code, makefile and LP file are available at
+Full version of code, makefile and LP file are available at this
 [gist](https://gist.github.com/mattmcd/5276441).
 
 Running the optimization gives the result:
