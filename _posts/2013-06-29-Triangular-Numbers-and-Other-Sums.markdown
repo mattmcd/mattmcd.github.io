@@ -27,7 +27,7 @@ The trick is to find a function g(n) such that
            = f(1) + (g(2) - g(1)) + (g(3) - g(2)) + ... + (g(N-1) - g(N-2)) + (g(N) - g(N-1))
            = f(1) + g(N) - g(1)
 
-i.e. all the intermediate ladder terms in the sum of g() terms cancel.
+i.e. all the intermediate ladder terms in the sum of g terms cancel.
 
 Consider k=1, the triangular numbers:
 
@@ -40,7 +40,10 @@ Consider k=1, the triangular numbers:
                   = a0*(2*n + 1) + a1
                   = f(n+1) = n+1
 
-Solving for a0 and a1 gives g(n) = 1/2*(n^2 + n) so S(1,N) = 1/2*(N^2 + N).
+Solving for a0 and a1 gives 
+
+    g(n) = 1/2*(n^2 + n) so S(1,N) = 1/2*(N^2 + N).
+
 The matrix form of solving for the coefficients is worth considering as it follows
 for higher values of k:
 
@@ -50,11 +53,12 @@ For example, for k=2 we solve the following equation for vector a:
 
     [3 0 0; 3 2 0; 1 1 1]*a = [1; 2; 1]
 
-which gives S(2,N) = 1/6*(2*n^3 + 3*n^2 + n)
+which gives 
+
+    S(2,N) = 1/6*(2*n^3 + 3*n^2 + n)
 
 Exercise for the reader: think about the relationship between the columns of 
 the matrix and [Pascal's triangle](http://en.m.wikipedia.org/wiki/Pascals_triangle).
-Also consider the convolution of the vector [1;1] with itself.  Can you see any patterns?
 
 Summary
 -------
