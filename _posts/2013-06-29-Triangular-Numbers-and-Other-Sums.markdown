@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Triangular Numbers and other Sums
-headline: 
+headline: Triangular Numbers and other Sums
 abstract: |
     Triangular numbers are of the form T(N) = 1 + 2 + ... + N.  This post 
     dscribes a procedure for summing general series of the form 
@@ -56,7 +56,8 @@ Exercise for the reader: think about the relationship between the columns of
 the matrix and [Pascal's triangle](http://en.m.wikipedia.org/wiki/Pascals_triangle).
 Also consider the convolution of the vector [1;1] with itself.  Can you see any patterns?
 
-##Summary
+Summary
+-------
 This method is the difference equation equivalent of finding the antiderivative of a 
 function to evaluate an integral in calculus.  
 ['Advanced Mathematical Techniques for Scientists and Engineers'](http://www.amazon.co.uk/Advanced-Mathematical-Methods-Scientists-Engineers/dp/0387989315)
