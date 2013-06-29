@@ -65,4 +65,4 @@ Summary
 This method is the difference equation equivalent of finding the antiderivative of a 
 function to evaluate an integral in calculus.  
 ['Advanced Mathematical Techniques for Scientists and Engineers'](http://www.amazon.co.uk/Advanced-Mathematical-Methods-Scientists-Engineers/dp/0387989315)
-by C. Bender and S. Orszag is a good reference for this technique and many other useeful tricks.
+by C. Bender and S. Orszag is a good reference for this technique and many other useful tricks.
