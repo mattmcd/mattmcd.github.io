@@ -13,9 +13,9 @@ Taking this post as an example the first step was to create a branch for the pos
     git branch 20151122_Blogging 
     git checkout 20151122_Blogging
     
-or 'git checkout -b 201511Blogging' to do creation and switch to new branch in one step.  In this case the branch will be created on the local machine so will need to be pushed to GitHub to access it through the GitHub website.
+or 'git checkout -b 20151122_Blogging' to do creation and switch to new branch in one step.  In this case the branch will be created on the local machine so will need to be pushed to GitHub to access it through the GitHub website.
 
-Working within GitHub the next step is to create the new Markdown file in the _posts directory of the project, here 2015-11-22-GitHub-Blogging-Branches-WOrkflow.markdown.  From the command line you can instead follow the usual workflow of creating a new file, editing, committing etc.  In my case this means I can work with the file either online through the GitHub web interface or offline using Vim.
+Working within GitHub the next step is to create the new Markdown file in the _posts directory of the project, here 2015-11-22-GitHub-Blogging-Branches-Workflow.markdown.  From the command line you can instead follow the usual workflow of creating a new file, editing, committing etc.  In my case this means I can work with the file either online through the GitHub web interface or offline using Vim.
 
 Once the blog post is finished, commit everything on the blog branch, switch to master and then merge from the blog branch.  From the command line:
 
