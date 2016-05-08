@@ -69,4 +69,26 @@ The application considered in this post is
             bucket.upload_file(os.path.join(dataLoc, download_date, fname),
                                'raw/' + download_date + '/' + fname)
 
+# Policy
+Create a policy called s3_upload that allows upload access to S3:
 
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:ListAllMyBuckets",
+                "s3:ListBucket",
+                "s3:CreateBucket"
+            ],
+            "Resource": "*"
+        }
+      ]
+    }
+
+# Role 
+Create a Role called DataProcessor and attach the s3_upload policy. 
+
+# Machine
