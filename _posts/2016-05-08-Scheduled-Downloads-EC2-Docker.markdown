@@ -55,6 +55,12 @@ In addition there are security components present:
 The application considered in this post is 
 
 
+## Docker
+
+
+## AWS
+The output stage of the 
+
     def copy_to_s3(download_date=None):
         """Copy downloaded files to S3
         :return: <none> Creates files on S3
@@ -70,7 +76,7 @@ The application considered in this post is
                                'raw/' + download_date + '/' + fname)
 
 # Policy
-Create a policy called s3_upload that allows upload access to S3:
+Create a policy called s3\_upload that allows upload access to S3:
 
     {
     "Version": "2012-10-17",
@@ -89,6 +95,28 @@ Create a policy called s3_upload that allows upload access to S3:
     }
 
 # Role 
-Create a Role called DataProcessor and attach the s3_upload policy. 
+Create a Role called DataProcessor and attach the s3\_upload policy. 
 
 # Machine
+
+    Vagrant.configure("2") do |config|
+      config.vm.box = "aws-box"
+      
+      config.vm.provider :aws do |aws, override|
+        aws.access_key_id = "INSERT KEY ID"
+        aws.secret_access_key = "INSERT SECRET KEY"
+        aws.keypair_name = "INSERT KEYPAIR NAME"
+        aws.elastic_ip = false 
+        aws.region = "eu-west-1"
+        aws.instance_type = "t2.micro"
+        aws.subnet_id = "INSERT SUBNET ID"
+        aws.ami = "ami-f95ef58a"
+        aws.iam_instance_profile_name = "DataProcessor"
+        aws.tags = { 'Name' => 'mda-cron-vm' }
+        override.ssh.username = "ubuntu"
+        override.ssh.private_key_path = "INSERT PATH TO .pem FILE"
+      end
+
+      config.vm.provision "docker",
+        images: ["mattmcd/pyanalysis"]
+    end
