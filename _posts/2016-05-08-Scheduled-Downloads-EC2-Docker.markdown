@@ -17,36 +17,36 @@ this approach for more general data analysis applications.
 # System Components
 The system consists of the following data flow components:
 
-- _Application_ - the part that performs an analysis function by processing
+- *Application* - the part that performs an analysis function by processing
   input data and producing output.  For the application in this post the
   input data is a list of stock tickers and the output data is a set of
   time series intraday stock prices.
-- _Runtime_ - the environment in which the application runs.  Here we have
+- *Runtime* - the environment in which the application runs.  Here we have
   an application written in [Python](https://www.python.org) and the
   runtime provides and environment that can interpret this code and provide
   access to the necessary libraries.
-- _Machine_ - the environment on which the runtime executes, for
+- *Machine* - the environment on which the runtime executes, for
   example a laptop or a cloud-based virtual machine such as an [Amazon Web
   Services Elastic Compute Cloud](https://aws.amazon.com/ec2) (AWS EC2)
   instance.
-- _Source_ - the data source.  This is the Google Finance API accessible via
-  http.
-- _Sink_ - the output data location.  This is an S3 bucket used to store
+- *Source* - the data source.  This is a csv file containing the list of tickers to
+  retrieve from the Google Finance API accessible via http.
+- *Sink* - the output data location.  This is an S3 bucket used to store
   the downloaded data.
 
 In addition there are security components present:
 
-- _Policy_ - a statment specifying what Actions are Allowed or Denied on a set
+- *Policy* - a statment specifying what Actions are Allowed or Denied on a set
   of Resources.  By default all actions are Denied so a policy document
   will be neeeded for an actor in the system to perform actions.
-- _User_ - an individual user of the system e.g. mattmcd.  A user may have
+- *User* - an individual user of the system e.g. mattmcd.  A user may have
   an associated set of attached policies or they may additionally be a
   member of one or more groups and inherit policies from those groups.
-- _Group_ - a set of users with common policies, e.g. Administrators with
+- *Group* - a set of users with common policies, e.g. Administrators with
   AdministratorAccess policy.  
-- _Credentials_ - tokens that identify a user.  Here this is an API key ID
+- *Credentials* - tokens that identify a user.  Here this is an API key ID
   and secret associated with each unique user.
-- _Role_ - similar to a user as a role is an identity with associated
+- *Role* - similar to a user as a role is an identity with associated
   policies but differs in that a role can be assumed by any entity needing
   access to that role.  Additionally, a role does not have any associated
   credentials instead generating these dynamically when needed.
