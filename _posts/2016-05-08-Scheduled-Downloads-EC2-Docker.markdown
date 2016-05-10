@@ -58,6 +58,20 @@ queries the Google Finance API to get price and volume information over 1 minute
 intervals for the previous 10 days for each ticker, and then uploads the retrieved data
 to S3.
 
+The language used for this task is Python, making use of a number of useful
+libraries such as:
+
+- [boto3](https://was.amazon.com/sdk-for-python) for manipulating the AWS SDK
+- [pandas](https://pandas.pydata.org) for working with data frames
+- [urllib2](https://docs.python.org/2/library/urllib2.html) for retrieving
+  data from the web
+
+A pcommon problem with deploying Python applications is packaging 
+the code with the libraries it depends on, so that the code can be run on
+the deployed application host correctly.  A number of 
+[packaging solutions](https://wiki.python.org/moin/deployment) exist,
+however here we have chosen to use Docker for constructing a packaged
+application.
 
 ## Docker
 
