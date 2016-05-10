@@ -52,7 +52,11 @@ In addition there are security components present:
   credentials instead generating these dynamically when needed.
 
 # Application
-The application considered in this post is 
+The application considered in this post is the first stage of an Extract-Transform-Load ([ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)) pipeline for 
+analysis of intraday time series data.  It takes a list of tickers from a csv file,
+queries the Google Finance API to get price and volume information over 1 minute 
+intervals for the previous 10 days for each ticker, and then uploads the retrieved data
+to S3.
 
 
 ## Docker
