@@ -26,7 +26,8 @@ The system consists of the following data flow components:
   runtime provides and environment that can interpret this code and provide
   access to the necessary libraries.
 - __Machine__ - the environment on which the runtime executes, for
-  example a laptop or a cloud-based virtual machine such as an [Amazon Web
+  example a laptop or a cloud-based virtual machine such as an 
+[Amazon Web
   Services Elastic Compute Cloud](https://aws.amazon.com/ec2) (AWS EC2)
   instance.
 - __Source__ - the data source.  This is a csv file containing the list of tickers to
@@ -66,7 +67,7 @@ libraries such as:
 - [urllib2](https://docs.python.org/2/library/urllib2.html) for retrieving
   data from the web
 
-A pcommon problem with deploying Python applications is packaging 
+A common problem with deploying Python applications is packaging 
 the code with the libraries it depends on, so that the code can be run on
 the deployed application host correctly.  A number of 
 [packaging solutions](https://wiki.python.org/moin/deployment) exist,
@@ -74,10 +75,39 @@ however here we have chosen to use Docker for constructing a packaged
 application.
 
 ## Docker
+Docker is a tool for constructing __software containers__ which make use of [OS level vitualization](https://en.wikipedia.org/wiki/Operating-system-level_virtualization)
+to allow packaged applications to run in isolated user spaces inside the 
+host OS.  What this means in practice is that it can be used as a form of virtual
+environment construction where the container not only contains the virtual environment
+with a set of installed libraries but also contains the platform allowing the 
+construction of virtual environments, in this case the 
+[Python Anaconda](https://www.continuum.io/downloads) distribution.  
 
+Deployment  of the application code that runs locally against a set of installed packages
+is achieved by constructing a set of Docker images replicating the local 
+environment.  These Docker images are constructed by creating a Dockerfile
+specifying a base image to use, then a set of commands that populate the new image
+with packages, set up environment variables, create users, etc.
+
+For this deployment two docker images have been created:
+
+- [Python Component Runtime](https://hub.docker.com/r/mattmcd/pcr/) (PCR) built on top of the continuumio/miniconda 
+  Docker image.  This acts as a base runtime with common useful packages such as Pandas.
+- [PyAnalysis](https://hub.docker.com/r/mattmcd/pyanalysis/) is built on top of PCR and contains a
+  checkout of the analysis code, together with some data files such as the list of tickers to download.  The
+  Dockerfile for this image also specifies the command to by run when the image is run by the Docker
+  engine if no other command to run is specified.  In this case the command is to run the 
+  download_intraday.py script.
+
+These images are automatically built by [Travis CI](https://travis-ci.org/getting_started) whenever a new commit
+is made to their respective [GitHub](https://github.com) repository.
 
 ## AWS
-The output stage of the 
+As ticker data is downloaded from Google Finance it is saved to a local file.
+When running the analysis application locally this data will persist.  
+However when running the Docker container the container (and its file system)
+is deleted after each run so this data must be copied to a persistent storage 
+location, in this case S3.  The code for this (from mda/finance.py) is shown below:
 
     def copy_to_s3(download_date=None):
         """Copy downloaded files to S3
@@ -93,7 +123,14 @@ The output stage of the
             bucket.upload_file(os.path.join(dataLoc, download_date, fname),
                                'raw/' + download_date + '/' + fname)
 
+
 # Policy
+When running locally the application code makes use of the user's $HOME/.aws 
+directory for authentication to use the AWS services.  While it is possible
+to include these credentials in the Docker image (NB: particularly not a good
+idea for public GitHub repositories) it is better to use the 
+[AWS Identity and Access Management](https://aws.amazon.com/iam/) (IAM) infrastructure
+to achieve the same effect.
 Create a policy called s3\_upload that allows upload access to S3:
 
     {
