@@ -151,8 +151,15 @@ Create a policy called s3\_upload that allows upload access to S3:
 
 # Role 
 Create a Role called DataProcessor and attach the s3\_upload policy. 
+This role is applied on launch to the EC2 instance that runs the Docker 
+image.  
 
 # Machine
+An example [Vagrantfile](https://www.vagrantup.com/) below uses the
+[vagrant-aws](https://github.com/mitchellh/vagrant-aws) plugin to launch an
+EC2 instance with the correct role attached, using a Ubuntu 14.04 AMI and a
+security group that allows SSH access only via the private key specified.
+
 
     Vagrant.configure("2") do |config|
       config.vm.box = "aws-box"
@@ -175,3 +182,40 @@ Create a Role called DataProcessor and attach the s3\_upload policy.
       config.vm.provision "docker",
         images: ["mattmcd/pyanalysis"]
     end
+
+Once the machine has started the scheduled download job is created by
+connecting to the machine over SSH,
+[installing
+Docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/), and 
+adding a run\_intraday.sh script that retrieves and runs the Docker image:
+
+    #!/bin/bash
+    docker run --rm -v /home/ubuntu/Work/Data:/home/ubuntu/Work/Data mattmcd/pyanalysis
+
+The crontab is then edited to schedule when the job should run:
+
+    # m h  dom mon dow   command
+    MAILTO=""
+    11 5 * * SAT /home/ubuntu/run_intraday.sh > /home/ubuntu/cron.log 2>&1
+
+For automated setup [Fabric](http://www.fabfile.org/) can be used for
+installing Docker on the EC2 instance, uploading the run script and editing
+the crontab.  However a better option may be to use a dedicated AMI
+designed for use with AWS [Elastic Container
+Service](https://aws.amazon.com/ecs/) (ECS).  This will be covered in a
+future post.
+
+# Conclusion
+This post has covered deployment of Python analysis code to a cloud
+platform using Docker.  The main focus has been on identifying the system
+components and how they interact.  The linked resources should serve as a
+starting point for anyone intending to do a similar deployment.  
+
+## About Me
+I am [Matt McDonnell](https://www.matt-mcdonnell.com) and am currently 
+working as a Data Scientist for a
+Cambridge (UK) based startup. Previously my main language has been MATLAB
+used in Quantitative Analyst and Quantitative Developer roles for a London
+based asset management firm, as well as in a Technical Consultant role for
+MathWorks.
+
