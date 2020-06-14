@@ -8,7 +8,7 @@ abstract: Cleaning up open Chrome tabs by bookmarking and documenting
 # 2020-06-13
 
 ## [The rise of embarrassingly parallel serverless compute](https://davidwells.io/blog/rise-of-embarrassingly-parallel-serverless-compute)
-* Run thoushands of computations in parallel using AWS Lambda
+* Run thousands of computations in parallel using AWS Lambda
 * [HN discussion](https://news.ycombinator.com/item?id=23506637)
 * [PyWren lets you run your existing python code at massive scale via AWS Lambda](http://pywren.io/)
 * [Occupy the Cloud: Distributed Computing for the 99% (arXiv)](https://arxiv.org/abs/1702.04024)
