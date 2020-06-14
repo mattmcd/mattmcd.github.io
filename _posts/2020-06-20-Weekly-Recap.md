@@ -46,3 +46,6 @@ Copy of points from article:
   * Support any flavor of stablecoin (e.g. Dai, cDai and Chai)
   * Granular customization of AMM behavior
 * "They differ in subtle but profound ways: their primary currency pair, the design of their bonding curves, and reward structures for liquidity providers are different for each. Some are even adding the ability to create pools containing multiple assets—a sophistication which could bring ETF-like functionality to AMMs."
+
+## [You Should Have Asked](https://english.emmaclit.com/2017/05/20/you-shouldve-asked/comment-page-9/)
+On sharing the mental load in a relationship
