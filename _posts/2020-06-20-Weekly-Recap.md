@@ -22,19 +22,19 @@ abstract: Cleaning up open Chrome tabs by bookmarking and documenting
 Copy of points from article:
 * Bancor - 2017
   * First major smart contract AMM out in the wild
-* [Uniswap](https://uniswap.io/) - 2018
+* [Uniswap](https://uniswap.org/) - 2018
   * Main goal: a decentralized protocol for token liquidity
   * Simpler bonding curve than Bancor
   * Used Ether as a hub currency
   * Very gas efficient
   * Not very capital efficient
-* [Curve](https://curve.fi) (aka Stableswap) - 2020
+* [Curve](https://curve.fi/) (aka Stableswap) - 2020
   * Main goal: low slippage, stablecoin-to-stablecoin trades
   * Extremely capital efficient => very low slippage
   * Multidimensional bonding surface, like Balancer
   * Works very well for stablecoins, does not work well for non-stablecoins
   * Relatively risky bonding curve
-* [Balancer](https://balancer.finance) - 2020
+* [Balancer](https://balancer.finance/) - 2020
   * Main goal: decentralized Vanguard
   * Generalizes Uniswap’s bonding curve to a multi-dimensional surface 
   * + Portfolio model 2x more capital efficient than hub-spoke
