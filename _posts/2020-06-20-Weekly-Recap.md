@@ -5,7 +5,7 @@ headline: Weekly Recap 2020-06-20
 abstract: Cleaning up open Chrome tabs by bookmarking and documenting
 ---
 
-# 2020-06-13
+# 2020-06-13 Sunday
 
 ## [The rise of embarrassingly parallel serverless compute](https://davidwells.io/blog/rise-of-embarrassingly-parallel-serverless-compute)
 * Run thousands of computations in parallel using AWS Lambda
@@ -49,3 +49,15 @@ Copy of points from article:
 
 ## [You Should Have Asked](https://english.emmaclit.com/2017/05/20/you-shouldve-asked/comment-page-9/)
 On sharing the mental load in a relationship
+
+# 2020-06-15 Monday
+Retail shops in England reopen.
+
+## [	Free Textbooks from Springer, Categorised](https://hnarayanan.github.io/springer-books/)
+* [HN discussion]((https://news.ycombinator.com/item?id=23520545)) with suggestions of good books
+* [Proofs from The Book](https://link.springer.com/book/10.1007%2F978-3-662-57265-8)
+* [Principles of Quantum Mechanics, SHankar](https://link.springer.com/book/10.1007%2F978-1-4757-0576-8) was one of my undergraduate texts
+
+## [Questions to help people decide what to learn](https://jvns.ca/blog/2020/06/14/questions-to-help-you-learn/)
+* [Julia Evans](https://twitter.com/b0rk) on "a way to help people evaluate their own learning & figure out what to learn next"
+* [Side-by-side question and answer format](https://questions.wizardzines.com/) similar to The Little Schemer
