@@ -54,7 +54,7 @@ On sharing the mental load in a relationship
 Retail shops in England reopen.
 
 ## [	Free Textbooks from Springer, Categorised](https://hnarayanan.github.io/springer-books/)
-* [HN discussion]((https://news.ycombinator.com/item?id=23520545)) with suggestions of good books
+* [HN discussion](https://news.ycombinator.com/item?id=23520545) with suggestions of good books
 * [Proofs from The Book](https://link.springer.com/book/10.1007%2F978-3-662-57265-8)
 * [Principles of Quantum Mechanics, SHankar](https://link.springer.com/book/10.1007%2F978-1-4757-0576-8) was one of my undergraduate texts
 
