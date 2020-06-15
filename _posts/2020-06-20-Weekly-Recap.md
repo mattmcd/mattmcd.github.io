@@ -56,7 +56,7 @@ Retail shops in England reopen.
 ## [	Free Textbooks from Springer, Categorised](https://hnarayanan.github.io/springer-books/)
 * [HN discussion](https://news.ycombinator.com/item?id=23520545) with suggestions of good books
 * [Proofs from The Book](https://link.springer.com/book/10.1007%2F978-3-662-57265-8)
-* [Principles of Quantum Mechanics, SHankar](https://link.springer.com/book/10.1007%2F978-1-4757-0576-8) was one of my undergraduate texts
+* [Principles of Quantum Mechanics, Shankar](https://link.springer.com/book/10.1007%2F978-1-4757-0576-8) was one of my undergraduate texts
 
 ## [Questions to help people decide what to learn](https://jvns.ca/blog/2020/06/14/questions-to-help-you-learn/)
 * [Julia Evans](https://twitter.com/b0rk) on "a way to help people evaluate their own learning & figure out what to learn next"
