@@ -89,6 +89,11 @@ Retail shops in England reopen.
   * [Gaussian Gated Linear Networks](https://arxiv.org/abs/2006.05964) "GLNs are a meta-algorithm that can be instantiated with any Exponential Family distribution. We derive a multivariate Gaussian GLN & demonstrate competitive performance on regression challenges & application to denoising based density modelling."
 * [HN discussion](https://news.ycombinator.com/item?id=23528247)
 
+[Joel (one of the authors) responds in thread](https://news.ycombinator.com/item?id=23532072):
+> 1) Indeed, GLNs don't learn features... but I would claim they do learn some notion of an intermediate representation, it's just different from the DL mainstream -- in particular its closely related to the inverse Radon transform in medical imaging.
+> 2) Inputs which are similar in terms of cosine similarity will map to similar (data dependent) products of weight matrices, and thus behave similarly, which of course can affect performance in both good and bad ways. With the results we show on permuted MNIST, its well... just not particularly likely that they will interfere. This is a good thing -- why should completely different data distributions interfere with one another? The point is the method is resiliant to catastrophic forgetting when the cosine similarity between data items from different tasks is small. This highlights the different kind of inductive bias a halfspace gated GLN has compared to a Deep ReLu network.
+> 3) Re bird example, that's slightly unfair. I am sure one could easily make use of the pre-trained resnet to provide informative features to a GLN -- it's early days for this method, hybrid systems haven't been investigated, so I don't know whether it would work better than current SOTA methods for image classification. But I would be pretty confident that some simple combination would work better than chopping the head off a pretrained network and fitting an SVM on top. This is all speculation on my part though. :)
+
 ## [Kaggle Halite by Two Sigma challenge](https://www.kaggle.com/c/halite/overview)
 * Reinforcement learning game challenge
 * [Intro to Game AI and Reinforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning)
