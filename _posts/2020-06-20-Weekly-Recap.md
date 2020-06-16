@@ -2,10 +2,10 @@
 layout: default
 title: Weekly Recap 2020-06-20
 headline: Weekly Recap 2020-06-20
-abstract: Cleaning up open Chrome tabs by bookmarking and documenting
+abstract: Log of things seen in week 2020-06-14 to 2020-06-20 (updated mid week)
 ---
 
-# 2020-06-13 Sunday
+# 2020-06-14 Sunday
 
 ## [The rise of embarrassingly parallel serverless compute](https://davidwells.io/blog/rise-of-embarrassingly-parallel-serverless-compute)
 * Run thousands of computations in parallel using AWS Lambda
