@@ -61,3 +61,21 @@ Retail shops in England reopen.
 ## [Questions to help people decide what to learn](https://jvns.ca/blog/2020/06/14/questions-to-help-you-learn/)
 * [Julia Evans](https://twitter.com/b0rk) on "a way to help people evaluate their own learning & figure out what to learn next"
 * [Side-by-side question and answer format](https://questions.wizardzines.com/) similar to The Little Schemer
+
+# 2020-06-16 Tuesday
+
+## [HN: How many of you know that the team is working on something that no-one wants? (iism.org)](https://news.ycombinator.com/item?id=23524605)
+* "we all know the project will fail unless someone develops well-perfoming, human-level AGI before Q4/2020"
+* Did not read the article
+
+## [Shadows of Stained Glass](https://nibnalin.me/dust-nib/shadows-of-stained-glass.html)
+* "\[Paper\] analysing the films Akira and Ghost in the Shell \[using\] data analysis tools to make observations about “macro” trends in the films, and \[trying\] to rationalise these observations using scenes and clips."
+* [HN Discussion](https://news.ycombinator.com/item?id=23533283)
+* Color analysis and chord diagrams, data visualization
+
+
+
+## [Feynman Lectures on the Strong Interactions](https://www.math.columbia.edu/~woit/wordpress/?p=11782)
+* [Feynman Lectures on the Strong Interactions notes on arXiv](https://arxiv.org/abs/2006.08594)
+
+
