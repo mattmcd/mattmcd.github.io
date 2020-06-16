@@ -70,12 +70,25 @@ Retail shops in England reopen.
 
 ## [Shadows of Stained Glass](https://nibnalin.me/dust-nib/shadows-of-stained-glass.html)
 * "\[Paper\] analysing the films Akira and Ghost in the Shell \[using\] data analysis tools to make observations about “macro” trends in the films, and \[trying\] to rationalise these observations using scenes and clips."
-* [HN Discussion](https://news.ycombinator.com/item?id=23533283)
+* [HN discussion](https://news.ycombinator.com/item?id=23533283)
 * Color analysis and chord diagrams, data visualization
-
-
 
 ## [Feynman Lectures on the Strong Interactions](https://www.math.columbia.edu/~woit/wordpress/?p=11782)
 * [Feynman Lectures on the Strong Interactions notes on arXiv](https://arxiv.org/abs/2006.08594)
+* [I tweeted](https://twitter.com/mattmcd/status/1272769162725687300)
 
+## [The Sun seen through the Earth using neutrino light (2007)](http://strangepaths.com/the-sun-seen-through-the-earth-in-neutrino-light/2007/01/06/en/)
+* [HN discussion](https://news.ycombinator.com/item?id=23528080)
+  * [Comment links to Destruction of Nuclear Bombs Using Ultra-High Energy Neutrino Beam (2003) discussion](https://news.ycombinator.com/item?id=23528970)
+  * [Destruction of Nuclear Bombs Using Ultra-High Energy Neutrino Beam (arXiv)](https://arxiv.org/abs/hep-ph/0305062)
+  
+## [Gated Linear Networks](https://arxiv.org/abs/1910.01526)
+* "\[A\] new family of backpropagation-free neural architectures ... What distinguishes GLNs from contemporary neural networks is the distributed and local nature of their credit assignment mechanism; each neuron directly predicts the target, forgoing the ability to learn feature representations in favor of rapid online learning. Individual neurons can model nonlinear functions via the use of data-dependent gating in conjunction with online convex optimization."
+* [DeepMind twitter thread on GLNs](https://twitter.com/DeepMind/status/1272460017153855489)
+  * [Online Learning in Contextual Bandits using Gated Linear Networks](https://arxiv.org/abs/2002.11611) "GLNs are universal learners due to their use of data-dependent gating. This can also be exploited to drive exploration, which we demonstrate by achieving SOTA performance vs deep learning methods on a suite of contextual bandits tasks"
+  * [Gaussian Gated Linear Networks](https://arxiv.org/abs/2006.05964) "GLNs are a meta-algorithm that can be instantiated with any Exponential Family distribution. We derive a multivariate Gaussian GLN & demonstrate competitive performance on regression challenges & application to denoising based density modelling."
+* [HN discussion](https://news.ycombinator.com/item?id=23528247)
 
+## [Kaggle Halite by Two Sigma challenge](https://www.kaggle.com/c/halite/overview)
+* Reinforcement learning game challenge
+* [Intro to Game AI and Reinforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning)
