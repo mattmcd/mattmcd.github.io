@@ -97,3 +97,23 @@ Retail shops in England reopen.
 ## [Kaggle Halite by Two Sigma challenge](https://www.kaggle.com/c/halite/overview)
 * Reinforcement learning game challenge
 * [Intro to Game AI and Reinforcement Learning](https://www.kaggle.com/learn/intro-to-game-ai-and-reinforcement-learning)
+
+## [Coronavirus: Dexamethasone proves first life-saving drug](https://www.bbc.co.uk/news/health-53061281)
+* Good news on the COVID-19 front
+* [HN discussion](https://news.ycombinator.com/item?id=23538131)
+* [In The Pipeline Discussion (waiting)](https://blogs.sciencemag.org/pipeline/)
+
+# 2020-06-17 Wednesday
+
+## Releases
+* [Bootstrap v5 alpha](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/) - "Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit"
+  * "Bootstrap no longer depends on jQuery and we’ve dropped support for Internet Explorer."
+  * [HN discussion](https://news.ycombinator.com/item?id=23543277)
+* [FFmpeg 4.3 (HN discussion)](https://news.ycombinator.com/item?id=23540704)
+
+## [AWS Lambda can now use EFS](https://aws.amazon.com/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/) 
+  * shared filesystem for serverless 
+  * Need to compare to existing approaches: S3, DynamoDB
+  * [HN discussion](https://news.ycombinator.com/item?id=23543554)
+  * [tl;dr: Cool! ... But, how does this handle NFS locking?](https://news.ycombinator.com/item?id=23547654)
+  
