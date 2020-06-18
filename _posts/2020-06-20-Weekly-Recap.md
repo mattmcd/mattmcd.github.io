@@ -117,3 +117,52 @@ Retail shops in England reopen.
   * [HN discussion](https://news.ycombinator.com/item?id=23543554)
   * [tl;dr: Cool! ... But, how does this handle NFS locking?](https://news.ycombinator.com/item?id=23547654)
   
+## Blockchain Blockchain Blockchain
+* [Binance launching crypto exchange in the UK](https://www.coindesk.com/binances-uk-exchange-institutions-regulated-crypto)
+* [Interest-Bearing Stablecoin Pools Without Impermanent Loss](https://medium.com/balancer-protocol/zero-impermanent-loss-stablecoin-pool-with-lending-interests-a3da6d8bb782) - Balancer blog post from October 2019
+* [rDAI](https://rdai.money/index.html) - stablecoin that splits principal and interest 
+* [Ubisoft launches Rabbids Token crypto game to benefit UNICEF](https://decrypt.co/32654/ubisoft-launches-rabbids-token-crypto-game-benefit-unicef)
+* [The digitisation of trade’s paper trail may be at hand](https://www.economist.com/finance-and-economics/2018/03/22/the-digitisation-of-trades-paper-trail-may-be-at-hand) 
+  * The Economist, 2020-05-22 on efforts by Maersk, IBM (we.trade), TradeIX (Marco Polo), Singapore (National Trade Platform)
+  * General digitisation story as well as blockchain
+  * Cost savings due to digitisation reducing back office error rate
+  * Digitisation also allows more use of Letters of Credit, reducing risk to SMEs
+
+# 2020-06-18 Thursday
+
+## Complex Adaptive Systems
+* "Which are dispositional not causal" according to the resident agile coach
+* [Cognitive Edge](https://cognitive-edge.com/): "Making sense of complexity in order to act" - Dave Snowden's company website
+* [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework)
+* [Thinking in Circles: An Essay on Ring Composition](https://www.amazon.co.uk/Thinking-Circles-Essay-Composition-Lectures/dp/0300167857) - one of the resources mentioned (haven't read)
+* [Chiastic structure](https://en.wikipedia.org/wiki/Chiastic_structure) - as seen in 'Use of Weapons'
+
+## [Announcing the Malleus Monstrorum Cthulhu Mythos Bestiary](https://mailchi.mp/636349ec4398/ab-chaos-the-chaosium-newsletter-563058)
+
+## [Dark matter hunt yields unexplained signal](https://www.bbc.co.uk/news/science-environment-53085260)
+
+## [Economist Technology Quarterly](https://www.economist.com/technology-quarterly/2020/06/11/an-understanding-of-ais-limitations-is-starting-to-sink-in)
+  * "An understanding of AI’s limitations is starting to sink in"
+  * Two sets of problems:
+    1. Practical: Adoption of machine learning has been driven by "improved algorithms, more powerful computers, more data (thanks to digitisation of society)" (paraphrased).
+    2. Lack of causal reasoning (my phrasing): Machine learning systems are excellent pattern recognition machines but are not "intelligent" 
+  * My take: agrees with Exponential View newletter observation that AI/ML now is like databases: everywhere but no big take over the world companies (where's the Oracle equivalent?).  Personally I like to think of AI/ML as a way of converting unstructured data into structured data that can then be used for further modelling and analysis.
+  
+## [Image GPT](https://openai.com/blog/image-gpt/)
+  * "We find that, just as a large transformer model trained on language can generate coherent text, the same exact model trained on pixel sequences can generate coherent image completions and samples."
+  * [HN discussion](https://news.ycombinator.com/item?id=23554944)
+  
+## Other Hacker News
+* [AWS Snowcone](https://news.ycombinator.com/item?id=23553689) for getting data into/out of AWS
+  * AWS Snowcone 8TB vs AWS Snow Ball 58TB vs AWS Snowmobile 100PB (["a 45-foot long ruggedized shipping container, pulled by a semi-trailer truck."](https://blog.maxar.com/earth-intelligence/2017/digitalglobe-moves-to-the-cloud-with-aws-snowmobile), which will sound hilarious in 10 years time)
+  * But what about the military applications? "Imagine Amazon was bidding on a big Department of Defense contract ($ in billion). DoD let's say wants to send drones / UAV's whatever to do big sensor passes out in far off areas / imagery, wideband radio etc). There is NO fast internet for the TB's generated. You pop this out of the drone, put it on the next resupply mail flight out, and ingest into Amazon cloud on far side for analytics."
+* [Deep JavaScript: Theory and Techniques (exploringjs.com)](https://news.ycombinator.com/item?id=23552180)
+  * TIL that 'JavaScript: The Good Parts' is out of date (predates JQuery, async/await)
+* [UK virus-tracing app switches to Google-Apple model (bbc.co.uk)](https://news.ycombinator.com/item?id=23562434)
+  * \*slow clap\*
+* [	A Graphical Introduction to Lattices](https://news.ycombinator.com/item?id=23549342)
+
+
+And finally: [The Case for Killer Robots](https://www.amazon.co.uk/gp/product/B082VRMDDT).  
+  
+
