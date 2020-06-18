@@ -158,6 +158,11 @@ Retail shops in England reopen.
   * But what about the military applications? "Imagine Amazon was bidding on a big Department of Defense contract ($ in billion). DoD let's say wants to send drones / UAV's whatever to do big sensor passes out in far off areas / imagery, wideband radio etc). There is NO fast internet for the TB's generated. You pop this out of the drone, put it on the next resupply mail flight out, and ingest into Amazon cloud on far side for analytics."
 * [Deep JavaScript: Theory and Techniques (exploringjs.com)](https://news.ycombinator.com/item?id=23552180)
   * TIL that 'JavaScript: The Good Parts' is out of date (predates JQuery, async/await)
-  
+* [UK virus-tracing app switches to Google-Apple model (bbc.co.uk)](https://news.ycombinator.com/item?id=23562434)
+  * \*slow clap\*
+* [	A Graphical Introduction to Lattices](https://news.ycombinator.com/item?id=23549342)
+
+
+And finally: [The Case for Killer Robots](https://www.amazon.co.uk/gp/product/B082VRMDDT).  
   
 
