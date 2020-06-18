@@ -117,3 +117,15 @@ Retail shops in England reopen.
   * [HN discussion](https://news.ycombinator.com/item?id=23543554)
   * [tl;dr: Cool! ... But, how does this handle NFS locking?](https://news.ycombinator.com/item?id=23547654)
   
+## Blockchain Blockchain Blockchain
+* [Binance launching crypto exchange in the UK](https://www.coindesk.com/binances-uk-exchange-institutions-regulated-crypto)
+* [Interest-Bearing Stablecoin Pools Without Impermanent Loss](https://medium.com/balancer-protocol/zero-impermanent-loss-stablecoin-pool-with-lending-interests-a3da6d8bb782) - Balancer blog post from October 2019
+* [rDAI](https://rdai.money/index.html) - stablecoin that splits principal and interest 
+
+# Complex Adaptive Systems
+* "Which are dispositional not causal" 
+* [Cognitive Edge](https://cognitive-edge.com/): "Making sense of complexity in order to act" - Dave Snowden's company website
+* [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework)
+* [Thinking in Circles: An Essay on Ring Composition](https://www.amazon.co.uk/Thinking-Circles-Essay-Composition-Lectures/dp/0300167857) - one of the resources mentioned (haven't read)
+* [Chiastic structure](https://en.wikipedia.org/wiki/Chiastic_structure) - as seen in 'Use of Weapons'
+
