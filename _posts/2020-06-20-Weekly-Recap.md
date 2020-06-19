@@ -151,6 +151,7 @@ Retail shops in England reopen.
 ## [Image GPT](https://openai.com/blog/image-gpt/)
   * "We find that, just as a large transformer model trained on language can generate coherent text, the same exact model trained on pixel sequences can generate coherent image completions and samples."
   * [HN discussion](https://news.ycombinator.com/item?id=23554944)
+  * [OpenAI on twitter](https://twitter.com/OpenAI/status/1273323325431754753)
   
 ## Other Hacker News
 * [AWS Snowcone](https://news.ycombinator.com/item?id=23553689) for getting data into/out of AWS
@@ -165,4 +166,28 @@ Retail shops in England reopen.
 
 And finally: [The Case for Killer Robots](https://www.amazon.co.uk/gp/product/B082VRMDDT).  
   
+# 2020-06-19 Friday
+
+## [Internet Jesus Crucified](https://www.doctornerdlove.com/on-finding-out-your-heroes-are-monsters-or-detoxifying-comic-culture/)
+  * [Warren Ellis on twitter](https://twitter.com/warrenellis/status/1273785757338083328)
+  * [I tweeted]: "On a selfish level I'll miss Warren Ellis' weekly Orbital Operations newsletter - any suggestions for other 'yes we're living in a dystopian future but we can still be nice to each other and optimistic futurists' people to follow?"
+  * bit sad about this really, love Warren Ellis' writing
+  
+## [Using Selective Attention in Reinforcement Learning Agents](https://ai.googleblog.com/2020/06/using-selective-attention-in.html)
+  * "Perhaps reducing an agent’s access to its visual inputs via an attention constraint could be beneficial to an agent’s performance?  We investigate the properties of such agents that employ a self-attention bottleneck \[and\] show that \[...\] they are able to solve \[...\] tasks from pixel inputs with 1000x fewer learnable parameters \[and\] are also better at generalization \[...\] simply due to its ability to “not see details” that can confuse it."
+  * [Neuroevolution of self-interpretable agents](https://attentionagent.github.io/)
+  * [Twitter thread](https://twitter.com/GoogleAI/status/1273666864699195393)
+  
+## Twitter
+* [Charles Stross on libertarian SF](https://twitter.com/cstross/status/1272258169964822530)
+* [Chris Olah on curve detectors in neural nets](https://twitter.com/ch402/status/1273647513107435522) - with shiny interactive [Distill paper](https://distill.pub/2020/circuits/curve-detectors/)
+* [Heitor Lessa on AWS Lambda Powertools for Python](https://twitter.com/heitor_lessa/status/1273649405875367936)
+* [Geoffrey Hinton on periodic activation functions](https://twitter.com/geoffreyhinton/status/1273686900285603843) - questions in thread about comparison with Fourier transforms
+* [Yield farming is the new liquidity mining](https://twitter.com/synthetix_io/status/1273804540966387712)
+
+## Hacker News
+* [The Return of the 90s Web](https://news.ycombinator.com/item?id=23567744)
+* [GitHub Super Linter: one linter to rule them all](https://news.ycombinator.com/item?id=23563823)
+* [Lightweight Alternatives to Google Analytics](https://news.ycombinator.com/item?id=23560823)
+* [Getting the most out of YubiKeys for your business](https://news.ycombinator.com/item?id=23558176)
 
