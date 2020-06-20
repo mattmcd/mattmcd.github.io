@@ -191,3 +191,15 @@ And finally: [The Case for Killer Robots](https://www.amazon.co.uk/gp/product/B0
 * [Lightweight Alternatives to Google Analytics](https://news.ycombinator.com/item?id=23560823)
 * [Getting the most out of YubiKeys for your business](https://news.ycombinator.com/item?id=23558176)
 
+# 2020-06-20 Saturday
+
+## D3.js in GitHub pages
+* [Using Custom Javascript In Jekyll Blogs](http://blog.emmatosch.com/2016/03/09/using-custom-javascript-in-jekyll-blogs.html) by [Emma Tosch](https://github.com/etosch)
+  * [Inferring Valid Causal Estimators for Experiments](http://blog.emmatosch.com/estimator_inference.html) example
+* [D3.js on Jekyll](https://briancaffey.github.io/2016/05/13/d3js-on-jekyll.html) by [Brian Caffey](https://github.com/briancaffey)
+* [D3.js Visualizations Using YAML and Jekyll](https://medium.com/@kinlane/d3-js-visualizations-using-yaml-and-jekyll-17da46af926b) by [Kin Lane](https://twitter.com/kinlane)
+  * also [I Am Building More Single Repo Apps](http://kinlane.com/2016/04/04/i-am-building-more-single-repo-apps/)
+  * ooh, also [GitHub Micro Tool](https://kinlane.github.io/github-micro-tool/) for running apps entirely on GitHub
+  
+Copy of Brian Caffey's example:
+{% include d3_example_braincaffey.html %}
