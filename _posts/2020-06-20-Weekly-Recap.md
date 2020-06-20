@@ -201,5 +201,3 @@ And finally: [The Case for Killer Robots](https://www.amazon.co.uk/gp/product/B0
   * also [I Am Building More Single Repo Apps](http://kinlane.com/2016/04/04/i-am-building-more-single-repo-apps/)
   * ooh, also [GitHub Micro Tool](https://kinlane.github.io/github-micro-tool/) for running apps entirely on GitHub
   
-Copy of Brian Caffey's example:
-{% include d3_example_braincaffey.html %}
