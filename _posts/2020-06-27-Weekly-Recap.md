@@ -61,7 +61,6 @@ abstract: Log of things seen in week 2020-06-21 to 2020-06-27 (updated mid week)
 * [Depth sensing without a depth sensor using AI on Android](https://twitter.com/claybavor/status/1276208535039168512) by [@claybavor](https://twitter.com/claybavor)
 * [Machine Learning Design Patterns book](https://twitter.com/SRobTweets/status/1276279118255054848) by [@SRobTweets](https://twitter.com/SRobTweets)
 * [TensorFlow Lite and Firebase](https://twitter.com/TensorFlow/status/1276561174620893184)
-* 
 
 ## Tools
 * [Figma](https://news.ycombinator.com/item?id=23584954)
