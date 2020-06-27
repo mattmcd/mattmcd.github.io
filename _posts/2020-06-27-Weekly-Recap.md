@@ -24,7 +24,12 @@ abstract: Log of things seen in week 2020-06-21 to 2020-06-27 (updated mid week)
   * "Aquaponic systems combine aquaculture (raising aquatic animals such as fish or crayfish) with hydroponics (growing plants such as tomatoes or lettuce in water rather than soil). The two activities are symbiotic, with the waste from the aquaculture system being broken down into nutrients that feed the hydroponic system, and the cleaned water then being circulated back into the aquaculture system. Combining the two processes yields benefits for both."
   * "Lending and exchange protocols, particularly ones that utilize pooled liquidity and automated market makers, are naturally symbiotic."
 * [Polymarket](https://www.poly.market/discover) prediction market
-* 
+* [Synthetix BTC yield farming pool](https://blog.synthetix.io/btc-yield-farming-pool/)
+* [Synthetix: The Past Present and Future interview (Feb 2020)](https://blog.synthetix.io/nocturnalsheet-interview-kain/)
+* [Strike protocol](https://medium.com/@strikeprotocol/monthly-update-may-2020-9c3bc698f161) - "Decentralized Perpetual Swaps for any Asset"
+* [Amplified Liquidity: Designing Capital Efficient Automated Market Makers in Bancor V2](https://blog.bancor.network/amplified-liquidity-designing-capital-efficient-automated-market-makers-in-bancor-v2-3cec8891c3a1)
+* [Intro to Celo](https://medium.com/celoorg/an-introductory-guide-to-celo-b185c62d3067) - mobile first blockchain for anyone with a basic smartphone
+* Lots of Liquidity Mining / Yield Farming articles after the Compound COMP token release last week and price spike
 * Tools
   * [ledger-eth-lib](https://github.com/mikeshultz/ledger-eth-lib) python package for using Ledger hardware wallets
   * [ledger-app-eth](https://github.com/LedgerHQ/app-ethereum) "Ethereum wallet application framework for Ledger Blue, Nano S and Nano X"
@@ -44,6 +49,7 @@ abstract: Log of things seen in week 2020-06-21 to 2020-06-27 (updated mid week)
 * [Accelerator Power Hour: PyTorch + TPU](https://www.kaggle.com/abhishek/accelerator-power-hour-pytorch-tpu) with Kaggle grandmaster Abhishek Thakur
   * [WTFML: Well That's Fantastic Machine Learning](https://github.com/abhishekkrthakur/wtfml)
   * [Albumentations](https://github.com/albumentations-team/albumentations)
+* [Kaggle TPUs YouTube Playlist](https://www.youtube.com/playlist?list=PLqFaTIg4myu-1c3ygYzakW8-hNzQG59-5)
   
 ## Twitter
 * ["How Graph Networks can learn Newtonian Physics and Dark Matter!"](https://twitter.com/ykilcher/status/1276158135258972161) by [@ykilcher](https://twitter.com/ykilcher)
@@ -51,13 +57,38 @@ abstract: Log of things seen in week 2020-06-21 to 2020-06-27 (updated mid week)
 * ["Self-supervised learning is having a big impact in ML, but can it give agents general propositional knowledge of their environment?"](https://twitter.com/DeepMind/status/1275742787447685126) by [@DeepMind](https://twitter.com/DeepMind)
 * ["Things I wish I'd known sooner"](https://twitter.com/QuinnyPig/status/1275623130447265793) by [@QuinnyPig](https://twitter.com/QuinnyPig)
 * ["200 tools for developing and deploying Deep Learning models"](https://twitter.com/chipro/status/1275289406748758021) by [@chipro](https://twitter.com/chipro)
-
+* [Kieron Gillan is doing a WH40K comic](https://twitter.com/kierongillen/status/1276159689332609027)
+* [Depth sensing without a depth sensor using AI on Android](https://twitter.com/claybavor/status/1276208535039168512) by [@claybavor](https://twitter.com/claybavor)
+* [Machine Learning Design Patterns book](https://twitter.com/SRobTweets/status/1276279118255054848) by [@SRobTweets](https://twitter.com/SRobTweets)
+* [TensorFlow Lite and Firebase](https://twitter.com/TensorFlow/status/1276561174620893184)
+* 
 
 ## Tools
 * [Figma](https://news.ycombinator.com/item?id=23584954)
 * [Written Communication is a Remote Work Superpower](https://news.ycombinator.com/item?id=23577228)
 * [GitBook](https://www.gitbook.com/) "Document everything!" in git
+* [ML Ops on GitHub](http://mlops-github.com/)
+* [Martin Fowler on branching patterns](https://martinfowler.com/articles/branching-patterns.html) via [The problem with GitFlow (HN)](https://news.ycombinator.com/item?id=23622071)
+* [Netlify: deploy React apps in 30 seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
+  * 30 seconds does not include setting up GitHub permissions if you want to do CI/CD, nor domain names for CORS 
+* [Amazon Honeycode](https://aws.amazon.com/blogs/aws/introducing-amazon-honeycode-build-web-mobile-apps-without-writing-code/) "build mobile apps without writing code"
+* [The Hitchhiker's Guide to PlantUML](https://crashedmind.github.io/PlantUMLHitchhikersGuide/)
+
 
 ## Misc
 * [A/B Street](https://github.com/dabreegster/abstreet/blob/master/README.md) city simulation
-
+* [Narrative Collapse](https://theconvivialsociety.substack.com/p/narrative-collapse)
+  * Narratives as a technology to make sense of of our environment - who am I, what am I doing
+  * "stories shape our identity, grant to us a sense of direction, and play an important role in our interpretation of the world"
+  * "Digital media introduced a new scale, pace, and pattern to human communication, and, in this way, altered how the world is perceived."
+  * "with regards to pattern, we encounter it both in novel social contexts and in a form that bears greater resemblance to a database than a story."
+  * Narrative Collapse = more of our information is coming from database type access as information points from competing narratives with no overarching framing of the story.  We are left to create our own stories.
+* [The Kawaiisation of Product Design (HN)](https://news.ycombinator.com/item?id=23243646)
+* [React Kawaii (HN)](https://news.ycombinator.com/item?id=18756926)
+* [Exploration of Generative Art (HN)](https://news.ycombinator.com/item?id=23621022)
+* [Teaching Physics to Neural Networks removes 'chaos blindness' (HN)](https://news.ycombinator.com/item?id=23597426)
+* [Occulus Go being sunsetted, easier app distribution of Occulus Quest](https://news.ycombinator.com/item?id=23617822)
+* [Cynefin - can Vige make sense in different domain?](https://www.vige.se/blog/2020/6/20/cynefinvige) - cute comic on Cynefin
+* [Don't go back to normal](https://dontgobacktonormal.uk/) - "We must re-imagine every corner of society, from food systems to education to how we use technology, how we do waste, how we generate energy, and the rhythms and behaviours with which we live our lives"
+* [Terence McGhee: Tech's Most Dangerous Blog](https://terencemcghee.com/)
+* [Tatiana Mac](https://tatianamac.com/) "is an American engineer who builds inclusive, accessible, and ethical products with thoughtful practices."
