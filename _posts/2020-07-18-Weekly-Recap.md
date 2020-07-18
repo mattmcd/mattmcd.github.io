@@ -108,4 +108,4 @@ My definition for this section seems to be hidden knowledge and symbols that don
 
 [Call of Cthulhu pandemic masks](https://twitter.com/Chaosium_Inc/status/1282317801013669888)
 
-[So Many of Us](https://www.somanyofus.com/) - more alegations about Warren Ellis
+[So Many of Us](https://www.somanyofus.com/) - more allegations about Warren Ellis
