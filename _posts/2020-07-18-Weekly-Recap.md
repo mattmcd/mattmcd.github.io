@@ -13,7 +13,7 @@ Individuality and causal inference
 * [What is an Individual?](https://www.quantamagazine.org/what-is-an-individual-biology-seeks-clues-in-information-theory-20200716/) 
   * [The information theory of individuality](https://link.springer.com/article/10.1007/s12064-020-00313-7) 
   * [Answering Schrödinger's question: A free-energy formulation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5857288/)
-* [What is an Agent?](https://twitter.com/yudapearl/status/1282667859538141185)
+* [What is an Agent?](https://twitter.com/yudapearl/status/1282667859538141185) - [Agency in Physics](https://arxiv.org/abs/2007.05300)
 
 Ethereum Virtual Machine assembly
 * [How does the EVM work?](https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e) 
@@ -43,9 +43,12 @@ Ethereum Virtual Machine assembly
 
 [@CamiRusso](https://twitter.com/CamiRusso/status/1282687788987621376) "Total ERC20 tokens market cap surpassed ETH market cap for the first time."
 
-EVM assembly: [How does the EVM work?](https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e) and [Diving in to the EVM](https://blog.qtum.org/diving-into-the-ethereum-vm-6e8d5d2f3c30)
+EVM assembly: [How does the EVM work?](https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e) and [Diving into the EVM](https://blog.qtum.org/diving-into-the-ethereum-vm-6e8d5d2f3c30),  [DPart 2](https://medium.com/@hayeah/diving-into-the-ethereum-vm-part-2-storage-layout-bc5349cb11b7), [Part 3](https://medium.com/@hayeah/diving-into-the-ethereum-vm-the-hidden-costs-of-arrays-28e119f04a9b).  Also [How to decipher a method call](https://medium.com/@hayeah/how-to-decipher-a-smart-contract-method-call-8ee980311603) and [the future of eWASM](https://blog.secondstate.io/post/20191029-ewasm/).
 
 [How to choose the right Curve pool](https://guides.curve.fi/how-to-choose-the-right-curve-pool-for-you/) - I just realised the payoff is very pennies and steamroller if any of the stablecoins slip against the peg.
+
+[Brownie 1.10.0 released](https://twitter.com/BrownieEth/status/1284038341084807169) - similar to Truffle framework but in Python
+
 
 # AI / ML / Math
 [A Ghost in the Figures](https://aghostinthefigures.com/) blog by Arnaldo Rodriguez-Gonzalez - via [@Arnaldo_AGITF](https://twitter.com/Arnaldo_AGITF/status/1283184900758265857) tweet "what features cause deterministic dynamical theories derived from stochastic phenomena to fail?"
@@ -81,8 +84,6 @@ EVM assembly: [How does the EVM work?](https://medium.com/mycrypto/the-ethereum-
 [Tim Harford has a new book coming out](https://twitter.com/TimHarford/status/1284065196152098816)
 
 [Speeding up neural ODEs](https://twitter.com/DavidDuvenaud/status/1284181667553390595)
-
-[Brownie 1.1.0 released](https://twitter.com/BrownieEth/status/1284038341084807169) - similar to Truffle framework but in Python
 
 [What is an Individual?](https://www.quantamagazine.org/what-is-an-individual-biology-seeks-clues-in-information-theory-20200716/) - Quanta article on [The information theory of individuality](https://link.springer.com/article/10.1007/s12064-020-00313-7) and [Answering Schrödinger's question: A free-energy formulation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5857288/)
 
