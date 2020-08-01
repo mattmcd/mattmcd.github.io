@@ -8,7 +8,7 @@ abstract: Log of things seen in week 2020-07-25 to 2020-08-01
 # Blockchain Blockchain Blockchain
 [The ultimate guide to Yield Farming in DeFi](https://www.youtube.com/watch?v=WDR4BqMzkVY) from The Defiant
 
-[yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) now with [vaults]((https://yearn.finance/vaults) for easy [liquidity provision to the yearn system](https://gov.yearn.finance/t/new-yfi-token-economic-model/1757).
+[yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) now with [vaults](https://yearn.finance/vaults) for easy [liquidity provision to the yearn system](https://gov.yearn.finance/t/new-yfi-token-economic-model/1757).
 
 [Aaveonomics](https://medium.com/aave/aavenomics-eeab650cccc2) Flash Paper
 
