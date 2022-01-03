@@ -30,7 +30,6 @@ This post is an attempt to capture what tabs I had open in Chrome on Monday 3rd 
 * [Proxy Re-encryption](https://www.nucypher.com/proxy-re-encryption)
 * [ZK Docs](https://www.zkdocs.com/)
 * [CFMM Routing Code](https://github.com/angeris/cfmm-routing-code)
-* 
 
 # Hacker News
 
@@ -59,7 +58,7 @@ This post is an attempt to capture what tabs I had open in Chrome on Monday 3rd 
 
 # Wikipedia
 
-* [Paul_Milgrom - Organizational and information economics](https://www.wikiwand.com/en/Paul_Milgrom#/Organizational_and_information_economics)
+* [Paul Milgrom - Organizational and information economics](https://www.wikiwand.com/en/Paul_Milgrom#/Organizational_and_information_economics)
 * [Industrial Metabolism](https://www.wikiwand.com/en/Industrial_metabolism)
 * [Production Possibility Frontier](https://www.wikiwand.com/en/Production%E2%80%93possibility_frontier)
 * [Supersymmetric Theory of Stochastic Dynamics](https://www.wikiwand.com/en/Supersymmetric_theory_of_stochastic_dynamics)
